@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "matxx_items",
+  "version": "${version}",
+  "name": "Matxx Items",
+  "description": "Mantené Shift izquierdo y pasá el mouse por los ítems del inventario para moverlos. Los tótems van directo a la segunda mano.",
+  "authors": ["Matxx"],
+  "license": "MIT",
+  "icon": "assets/matxx_items/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["dev.matxx.items.MatxxItems"]
+  },
+  "mixins": ["matxx_items.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21 <=1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
